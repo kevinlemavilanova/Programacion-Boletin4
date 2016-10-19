@@ -20,5 +20,7 @@ public class Boletin4 {
         Circulo circulo1 =  new Circulo(20);
         System.out.println(circulo1.calculaLonxitude());
         System.out.println(circulo1.calcularArea());
+        Restaurante restaurante1= new Restaurante();
+        System.out.println("clientes "+ restaurante1.calcularclientes());
     }
 }
